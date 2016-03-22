@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
 		
 	}
 	document.querySelector("#prijavniGumb").addEventListener('click', potrdiPrijavo);
-	
+	//Funkcija
 	var dodajOpomnik = function() {
 		
 		var naziv_opomnika = document.querySelector("#naziv_opomnika").value;
@@ -46,7 +46,7 @@ window.addEventListener('load', function() {
 				casovnik.innerHTML = cas - 1;
 			}
 			
-			
+
 		}
 	}
 	setInterval(posodobiOpomnike, 1000);
